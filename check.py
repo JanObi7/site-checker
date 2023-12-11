@@ -14,7 +14,7 @@ toast = ToastNotifier()
 toast.show_toast(
     "site-checker",
     "value = " + value,
-    duration = 10,
+    duration = 5,
     icon_path = "at.ico",
     threaded = True,
 )
